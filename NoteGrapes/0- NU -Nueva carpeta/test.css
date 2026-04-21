@@ -1,0 +1,8 @@
+#verificacion{
+    z-index: 12;
+    position: relative;
+    width: 25vw;
+    height: 25vh;
+    display:none;
+    background-color: aqua;
+}

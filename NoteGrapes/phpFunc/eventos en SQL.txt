@@ -1,0 +1,5 @@
+CREATE EVENT eliminar_temp
+ON SCHEDULE EVERY 1 MINUTE
+DO
+DELETE FROM tempusers
+WHERE tiempo_creado < (NOW() - INTERVAL 5 MINUTE);

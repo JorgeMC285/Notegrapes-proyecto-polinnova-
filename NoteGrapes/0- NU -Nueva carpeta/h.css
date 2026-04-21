@@ -1,0 +1,17 @@
+body{
+    background-color: #c2c2c2; /* fondo */
+}
+
+body::before{
+    content:"";
+    position: fixed;
+    inset:0;
+
+    background-image: url("patron.png");
+    background-repeat: repeat;
+    filter: brightness(0) saturate(100%) invert(12%) sepia(95%) saturate(5372%) hue-rotate(358deg) brightness(88%) contrast(95%);
+
+    opacity:1; /* transparencia */
+
+    pointer-events:none;
+}
